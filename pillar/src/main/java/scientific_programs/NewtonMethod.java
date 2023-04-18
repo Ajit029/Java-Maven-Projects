@@ -9,7 +9,7 @@ public class NewtonMethod {
         Scanner scanner = new Scanner(System.in);
         double c = scanner.nextInt();
         scanner.close();
-        double t = c;
+        double t = c; // understand this
         while (Math.abs(t - c/t) > EPSILON * t){ 
             // Replace t by the average of t and c/t.
             t = (c/t + t) / 2.0;
