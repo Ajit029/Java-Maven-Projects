@@ -1,3 +1,7 @@
+/*
+ * Finding square root of a number using Newton's Method
+ */
+
 package scientific_programs;
 
 import java.util.Scanner;
