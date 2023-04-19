@@ -11,18 +11,6 @@ public class SortByFileSize {
     public static void main(String[] args) {
         getFileSize(DIRECTORY_PATH);
     }
-    
-    public static void listFileNames(String path){
-        File directory = new File(path);
-  
-        String[] flist = directory.list();
-
-        for (int i = 0; i < flist.length; i++) {
-            String filename = flist[i];
-            System.out.println(filename);
-            
-        }
-    }
 
     public static void getFileSize(String path){
         File directory = new File(path);
