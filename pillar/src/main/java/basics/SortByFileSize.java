@@ -6,7 +6,7 @@ import org.apache.commons.io.FileUtils;
 
 public class SortByFileSize {
 
-    private static final String DIRECTORY_PATH = "E:\\";
+    private static final String DIRECTORY_PATH = "E:\\"; // Enter directory path here
     private static final double CONSTRAINT = 1_073_741_824; // 1 GB
     public static void main(String[] args) {
         getFileSize(DIRECTORY_PATH);
