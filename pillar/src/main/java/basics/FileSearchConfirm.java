@@ -2,7 +2,7 @@ package basics;
 
 import java.io.File;
 
-public class FileSearch {
+public class FileSearchConfirm {
     public static void main(String[] argv) throws Exception
     {
         // Create an object of the File class

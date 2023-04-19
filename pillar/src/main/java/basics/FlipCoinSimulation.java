@@ -2,7 +2,7 @@ package basics;
 
 import java.util.Scanner;
 
-public class FlipCoin {
+public class FlipCoinSimulation {
     public static void main(String[] args) {
 		int n = getInput();
 		simulateFlip(n);
