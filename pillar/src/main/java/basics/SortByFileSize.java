@@ -16,7 +16,7 @@ package basics;
 
 import java.io.File;
 
-import org.apache.commons.io.FileUtils;
+import org.apache.commons.io.FileUtils; // added fileUtils dependency
 
 public class SortByFileSize {
 
