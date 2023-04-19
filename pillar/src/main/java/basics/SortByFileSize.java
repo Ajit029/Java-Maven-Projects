@@ -1,3 +1,17 @@
+/* ******************************************************************************
+ * This program prints the file names in a directory which match the constaints
+ * specified in the code.
+ * ****************************************************************************** 
+ * 
+ * Steps for the user
+ * ------------------
+ * 
+ * -> Modify the directory name with double slash for each sub-folder.
+ * -> Then specify the size as constraint.
+ * 
+ * ******************************************************************************
+ */
+
 package basics;
 
 import java.io.File;
