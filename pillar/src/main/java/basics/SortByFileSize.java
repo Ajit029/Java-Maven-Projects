@@ -1,5 +1,5 @@
 /* ******************************************************************************
- * This program prints the file names in a directory which match the constaints
+ * This program prints the file names in a directory which match the constraints
  * specified in the code.
  * ****************************************************************************** 
  * 
@@ -20,7 +20,7 @@ import org.apache.commons.io.FileUtils; // added fileUtils dependency
 
 public class SortByFileSize {
 
-    private static final String DIRECTORY_PATH = "D:\\Programming\\Softwares"; // Enter directory path here
+    private static final String DIRECTORY_PATH = "C:\\"; // Enter directory path here
     private static final double CONSTRAINT = 1_073_741_824; // 1 GB
     public static void main(String[] args) {
         getFileSize(DIRECTORY_PATH);
