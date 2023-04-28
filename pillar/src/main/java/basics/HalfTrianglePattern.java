@@ -17,4 +17,5 @@ public class HalfTrianglePattern {
             System.out.println("#".repeat(i));
         }
     }
+    
 }
